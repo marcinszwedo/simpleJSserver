@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080;
 
 const requestListener = function (req, res) {
     res.writeHead(200);
-    res.end('Grupa ZDTESTpol137 jest super SUPER!');
+    res.end('Grupa ZDTESTpol137 jest mega SUPER!');
 }
 
 const server = http.createServer(requestListener);
